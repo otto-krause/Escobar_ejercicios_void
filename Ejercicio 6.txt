@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+void v(int va) {
+	float op = (float)va / 8;
+	
+	printf("La octava parte de %d es: %.2f\n", va, op);
+}
+
+int main() {
+	int va;
+	
+	printf("Ingresa un valor entero: ");
+	scanf("%d", &va);
+	
+	v(va); 
+	
+	return 0;
+}

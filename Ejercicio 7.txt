@@ -1,0 +1,26 @@
+
+#include <stdio.h>
+
+void v(int a, int b) {
+	if (a > b) {
+		printf("El mayor número es: %d\n", a);
+	} else if (b > a) {
+		printf("El mayor número es: %d\n", b);
+	} else {
+		printf("Los números son iguales: %d\n", a);
+	}
+}
+
+int main() {
+	int a, b;
+	
+	printf("Ingresa el primer número: ");
+	scanf("%d", &a);
+	
+	printf("Ingresa el segundo número: ");
+	scanf("%d", &b);
+	
+	v(a,b); 
+	
+	return 0;
+}

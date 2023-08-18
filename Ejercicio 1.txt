@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void v(int a,int b);
+
+int main() 
+{
+	
+	printf("Ingrese Un Numero: \n");
+	scanf("%d",&a);
+	printf("Ingrese Otro Numero: \n");
+	scanf("%d",&b);
+	
+	v(a,b);
+	
+	
+	return 0;	
+}
+void v(int a,int b)
+{
+	printf("El primer numero es: %d\n",a);
+	
+	printf("El segundo numero es: %d\n",b);
+	
+}

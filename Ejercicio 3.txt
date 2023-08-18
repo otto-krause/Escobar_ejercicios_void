@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void v(int h, int m) {
+	int tp = h + m;
+	float ph = (h * 100.0) / tp;
+	float pm = (m * 100.0) / tp;
+	
+	printf("Porcentaje de hombres: %.2f%%\n", ph);
+	printf("Porcentaje de mujeres: %.2f%%\n", pm);
+}
+
+int main() {
+	int h, m;
+	
+	printf("Ingrese el número de hombres: ");
+	scanf("%d", &h);
+	
+	printf("Ingrese el número de mujeres: ");
+	scanf("%d", &m);
+	
+	v(h, m); 
+	
+	return 0;
+}

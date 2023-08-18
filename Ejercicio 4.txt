@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+
+void v(float f, float a) {
+	float p = f / a;
+	
+	printf("La presión sobre la superficie es: %.2f unidades de presión\n", p);
+}
+
+int main() {
+	float f, a;
+	
+	printf("Ingrese la fuerza aplicada sobre la superficie: ");
+	scanf("%f", &f);
+	
+	printf("Ingrese el área de la superficie: ");
+	scanf("%f", &a);
+	
+	v(f, a); 
+	
+	return 0;
+}
