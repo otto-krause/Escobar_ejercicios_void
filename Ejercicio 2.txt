@@ -2,18 +2,17 @@
 
 void v(float l, float a) {
 	float p = 2 * (l + a);
-	float ar = l* a;
+	float ar = a* a;
 	
-	printf("Para un rectángulo de largo %.2f y ancho %.2f:\n", l a);
 	printf("Perímetro: %.2f\n", p);
-	printf("Área: %.2f\n", ar);
+	printf("area: %.2f\n", ar);
 }
 
 int main() {
 	float l, a;
 	
 	printf("Ingresa el largo del rectángulo: ");
-	scanf("%f", &la);
+	scanf("%f", &l);
 	
 	printf("Ingresa el ancho del rectángulo: ");
 	scanf("%f", &a);
